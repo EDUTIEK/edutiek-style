@@ -1,0 +1,12 @@
+
+@use "../delos/delos" with (
+  $il-main-color: #0094d1
+);
+
+.il-logo {
+        overflow: visible;
+}
+
+.il-pagetitle {
+  padding-left:180px;
+}

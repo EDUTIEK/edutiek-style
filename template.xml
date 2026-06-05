@@ -1,6 +1,4 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
-<template xmlns = "http://www.w3.org" version = "$Id$" name = "ILIAS">
-	<style 	name = "SkinRepoDelos"
-			id = "delos"
-			image_directory = "images"/>
+<template xmlns = "http://www.w3.org" version = "1.1" name = "EDUTIEK">
+	<style 	name = "EDUTIEK" id = "edutiek" image_directory = "../images" css_file="edutiek"/>
 </template>
