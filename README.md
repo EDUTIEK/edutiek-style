@@ -18,23 +18,23 @@ git clone https://github.com/EDUTIEK/edutiek-style.git -b edutiek10 edutiek
 
 ## Building the Style
 
-The style is built using Sass. To compile the `delos.scss` file to CSS, use one of the following commands from this directory:
+The style is built using Sass. To compile the `edutiek.scss` file to CSS in `./public/Customizing/skin/edutiek/edutiek`, use one of the following commands from this directory:
 
 ### Standard Output
 
 ```bash
-./node_modules/.bin/sass delos.scss mystyle.css
+[ILIAS_DIR]/node_modules/.bin/sass edutiek.scss edutiek.css
 ```
 
-This generates a standard, readable CSS file (`mystyle.css`).
+This generates a standard, readable CSS file (`edutiek.css`).
 
 ### Compressed Output
 
 ```bash
-./node_modules/.bin/sass --style=compressed delos.scss mystyle.css
+[ILIAS_DIR]/node_modules/.bin/sass --style=compressed edutiek.scss edutiek.css
 ```
 
-This generates a minified CSS file (`mystyle.css`) suitable for production.
+This generates a minified CSS file (`edutiek.css`) suitable for production.
 
 ## Change Log
 
